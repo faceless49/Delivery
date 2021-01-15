@@ -1,0 +1,15 @@
+.header {
+  height: 100vh;
+  background: url(../../img/header/headerbg_shape.png) center center/cover
+    no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__order-area {
+/*         margin: 245px 0 0 180px;
+        position: relative;
+        z-index: 2222; */
+    }
+
+}

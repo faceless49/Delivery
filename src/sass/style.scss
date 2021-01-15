@@ -1,0 +1,20 @@
+@import "base/variables";
+@import "base/mixins";
+
+
+* {
+  font-family: "Kayak", sans-serif;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+.container {
+  max-width: 1570px;
+}
+
+
+@import "blocks/buttons";
+@import "blocks/titles";
+@import "blocks/header";
+
