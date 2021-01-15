@@ -1,100 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/fonts/fonts.css" />
-    <link rel="stylesheet" href="css/style.min.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__wrapper">
-        <div class="header__order-area">
-          <h2 class="header__title title">
-            There is no Sincerer Love than the
-            <span class="title title--greenpart"> love of food.</span>
-          </h2>
-          <button class="header__btn--bs btn">Place an Order</button>
-        </div>
-        <img src="img/header/big_dish.png" alt="Big pretty dish" class="header__image">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__order-area">
+        <h2 class="header__title title">
+          There is no Sincerer Love than the
+          <span class="title title--greenpart"> love of food.</span>
+        </h2>
+        <button class="header__btn--bs btn">Place an Order</button>
       </div>
+      <img src="img/header/big_dish.png" alt="Big pretty dish" class="header__image">
       <button class="btn header__btn--sign">Sign in</button>
-    </header>
-    <section class="find">
-      <div class="find__adress">
-        <h2 class="find__title title">
-          Discover restaurants that deliver near you
-        </h2>
-        <input
-          class="find__geolocation"
-          name="location"
-          placeholder="Enter your delivery adress"
-        />
-        <button class="localrest__btn btn">Find food</button>
+
+    </div>
+  </header>
+  <section class="find">
+    <img src="img/find/hamburger.png" class="find__hamburger" alt="Tasty hamburger">
+    <div class="find__adress">
+      <h2 class="find__title title">
+        Discover restaurants that <span class="title--greenpart">deliver near you</span>
+      </h2>
+      <input class="find__geolocation" name="location" placeholder="Enter your delivery adress" />
+      <button class="find__btn btn">Find food</button>
+    </div>
+  </section>
+  <section class="localrest">
+    <div class="container">
+      <div class="localrest__wrapper">
+        <div class="localrest__favour">
+          <h2 class="localrest__title title">
+            Find food you love from local restaurants and chain favourites.
+          </h2>
+          <button class="localrest__btn btn">Find food</button>
+        </div>
+        <img src="img/localrest/burgerphone.png" alt="Phone" />
       </div>
-    </section>
-    <section class="localrest">
-      <div class="localrest__favour">
-        <h2 class="localrest__title title">
-          Find food you love from local restaurants and chain favourites.
-        </h2>
-        <button class="localrest__btn btn">Find food</button>
       </div>
-      <img src="../img/localrest/burgerphone.png" alt="Phone" />
-    </section>
-    <section class="order">
-      <img src="img/order/hands.png" alt="Dish" class="order__hands" />
-      <div class="order__tap">
-        <h2 class="order__title title">
-          Tap to place your order and pay with your Uber account.
-        </h2>
-      </div>
-    </section>
-    <section class="tracker">
-      <img src="img/track/mapgeo.png" alt="Geo points" class="tracker__map" />
-      <img src="img/track/phonemap.png" alt="Phone with UBER" />
-    </section>
-    <section class="getapp">
-      <img src="" alt="" class="vegetables" />
-      <div class="getapp__badges">
-        <h3 class="getapp__subtitle">Get the app.Order with a tap.</h3>
-        <a href="#" class="getapp__link"
-          ><img src="" alt="" class="getapp__link--gplay"
-        /></a>
-        <a href="#"><img src="" alt="" class="getapp__link--aapl" /></a>
-      </div>
-    </section>
-    <section class="services">
-      <div class="services__deliver">
-        <img src="" alt="" class="services__handdish" />
-        <h3 class="services__partner"></h3>
-        <p class="text-description">
-          Partner with Uber Eats for a new way to make money, reach new diners
-          and deliver food to your customers.
-        </p>
-        <button class="services__btn btn">Get started</button>
-      </div>
-      <div class="services__rest">
-        <img src="" alt="" class="services__handdish" />
-        <h3 class="services__partner">Deliver the Eats</h3>
-        <p class="text-description">
-          Deliver with Uber and earn on your schedule. Depending on your city,
-          you could deliver with your car, bike or scooter.
-        </p>
-        <button class="services__btn btn">Get started</button>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="footer__wrapper">
-        <div class="footer__social"></div>
-        <div class="footer__partnership"></div>
-        <div class="footer__menu"></div>
-        <div class="footer"></div>
-        <footer__terms></footer__terms>
-        <div class="footer__badges"></div>
-      </div>
-    </footer>
-  </body>
+  </section>
+  <section class="order">
+    <img src="img/order/hands.png" alt="Dish" class="order__hands" />
+    <div class="order__tap">
+      <h2 class="order__title title">
+        Tap to place your order and pay with your Uber account.
+      </h2>
+    </div>
+  </section>
+  <section class="tracker">
+    <img src="img/track/mapgeo.png" alt="Geo points" class="tracker__map" />
+    <img src="img/track/phonemap.png" alt="Phone with UBER" />
+  </section>
+  <section class="getapp">
+    <img src="" alt="" class="vegetables" />
+    <div class="getapp__badges">
+      <h3 class="getapp__subtitle">Get the app.Order with a tap.</h3>
+      <a href="#" class="getapp__link"><img src="" alt="" class="getapp__link--gplay" /></a>
+      <a href="#"><img src="" alt="" class="getapp__link--aapl" /></a>
+    </div>
+  </section>
+  <section class="services">
+    <div class="services__deliver">
+      <img src="" alt="" class="services__handdish" />
+      <h3 class="services__partner"></h3>
+      <p class="text-description">
+        Partner with Uber Eats for a new way to make money, reach new diners
+        and deliver food to your customers.
+      </p>
+      <button class="services__btn btn">Get started</button>
+    </div>
+    <div class="services__rest">
+      <img src="" alt="" class="services__handdish" />
+      <h3 class="services__partner">Deliver the Eats</h3>
+      <p class="text-description">
+        Deliver with Uber and earn on your schedule. Depending on your city,
+        you could deliver with your car, bike or scooter.
+      </p>
+      <button class="services__btn btn">Get started</button>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__social"></div>
+      <div class="footer__partnership"></div>
+      <div class="footer__menu"></div>
+      <div class="footer"></div>
+      <footer__terms></footer__terms>
+      <div class="footer__badges"></div>
+    </div>
+  </footer>
+</body>
+
 </html>

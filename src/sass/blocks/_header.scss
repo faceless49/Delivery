@@ -2,14 +2,25 @@
   height: 100vh;
   background: url(../../img/header/headerbg_shape.png) center center/cover
     no-repeat;
-    &__wrapper {
-        display: flex;
-        justify-content: space-between;
-    }
-    &__order-area {
-/*         margin: 245px 0 0 180px;
-        position: relative;
-        z-index: 2222; */
-    }
-
+  &__wrapper {
+    padding: 45px 175px 0 180px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__order-area {
+    max-width: 390px;
+    z-index: 1;
+    margin-top: 200px;
+  }
+  &__image {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  &__btn--sign {
+    z-index: 1;
+    align-self: flex-start;
+  }
 }

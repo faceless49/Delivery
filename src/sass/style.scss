@@ -3,7 +3,7 @@
 
 
 * {
-  font-family: "Kayak", sans-serif;
+  font-family: 'Kayak', sans-serif;
   font-weight: 400;
   padding: 0;
   margin: 0;
@@ -13,8 +13,9 @@
   max-width: 1570px;
 }
 
-
-@import "blocks/buttons";
 @import "blocks/titles";
+@import "blocks/buttons";
 @import "blocks/header";
+@import "blocks/find";
+@import "blocks/localrest";
 
