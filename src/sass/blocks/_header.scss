@@ -1,9 +1,9 @@
 .header {
   height: 100vh;
-  background: url(../../img/header/headerbg_shape.png) center center/cover
+  background: url('../../img/header/big_dish.png') right top no-repeat, url('../../img/header/headerbg_shape.png') center center/cover
     no-repeat;
   &__wrapper {
-    padding: 45px 175px 0 180px;
+    padding: 45px 175px 190px 180px;  
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -19,8 +19,19 @@
     right: 0;
     top: 0;
   }
+  &__btn--bs {
+    width: 220px;
+  }
   &__btn--sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 45px;
     z-index: 1;
     align-self: flex-start;
+    font-size: 1.9rem;
+    line-height: 70px;
+    font-weight: 700;
   }
 }

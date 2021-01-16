@@ -1,7 +1,19 @@
 .localrest {
-    margin: 0 auto;
-    &__local__wrapper {
+    &__wrapper {
+        padding: 0 ;
         display: flex;
-        justify-content: center;
+        justify-content:  space-around;
+        align-items: center;
+        background: url(../../img/localrest/broken_egg.png)  right top no-repeat, url(../../img/localrest/shape3section.png) center center/cover no-repeat, url(../../img/localrest/cucumbers.png) left bottom no-repeat;
+    }
+    &__favour {
+        display: flex;
+        flex-direction: column;
+        
+        width: 800px;
+    }
+    &__btn {
+        width: 200px;
+        align-self: flex-start;
     }
 }
