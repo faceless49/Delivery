@@ -1,0 +1,31 @@
+.services {
+  @include flexcenter;
+
+  &__deliver {
+    width: 420px;
+    padding: 0 95px;
+    border-right: 2px solid #d8d9db;
+    &:last-child {
+      border: none;
+    }
+  }
+
+  &__partner {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: -0.7px;
+    color: $base-color;
+  }
+
+  &__descr {
+    font-size: 2rem;
+    line-height: 34px;
+  }
+  
+  &__btn {
+    width: 184px;
+    height: 60px;
+    @include flexcenter;
+  }
+}

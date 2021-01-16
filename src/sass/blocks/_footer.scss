@@ -1,0 +1,36 @@
+.footer {
+
+    &__wrapper {
+        // padding: 130px 170px 50px 155px;
+        padding-top: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        background-color: #262626;
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 2.55;
+        letter-spacing: 0.4px;
+        color: #ffffff;
+    }
+    &__blocks-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__language {
+        font-size: 2rem;
+        width: 200px;
+        background-color: #262626;
+        color: #ffffff;  
+    }
+    &__menu-list {
+        padding: 0;
+        list-style: none;
+    }
+    &__menu-link {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    &__badges {
+    }
+}
