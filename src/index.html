@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/iconfonts.css">
   <link rel="stylesheet" href="css/style.min.css" />
 </head>
 
@@ -20,16 +21,18 @@
         </h2>
         <button class="header__btn--bs btn">Place an Order</button>
       </div>
+      <div class="header__onion-wrapper">
+        <img src="img/header/header-sliced.png" alt="Onion" class="header__onion">
+      </div>
       <button class="btn header__btn--sign">Sign in</button>
 
     </div>
   </header>
   <section class="discover">
     <div class="discover__wrapper">
-      <img src="img/discover/hamburger.png" class="find__hamburger" alt="Tasty hamburger">
+        <img src="img/discover/hamburger.png" class="find__hamburger" alt="Tasty hamburger">
       <div class="discover__adress">
         <h2 class="discover__title title">
-          <!-- ! Why i should type title title-- -->
           Discover restaurants that <span class="title--greenpart">deliver near you</span>
         </h2>
         <input class="discover__geolocation" name="location" placeholder="Enter your delivery adress" />
@@ -40,12 +43,15 @@
   <section class="localrest">
     <div class="localrest__wrapper">
       <div class="localrest__favour">
+        <img src="img/order/wave.png" alt="" class="localrest__waves">
         <h2 class="localrest__title title">
           Find food you love from local restaurants and chain <span class="title--greenpart"> favourites. </span>
         </h2>
         <button class="localrest__btn btn">Find food</button>
       </div>
-      <img src="img/localrest/burgerphone.png" alt="Phone" />
+      <div class="localrest__phone-wrapper">
+        <img src="img/localrest/burgerphone.png" alt="Phone" />
+      </div>
     </div>
   </section>
   <section class="order">
@@ -100,7 +106,7 @@
   </section>
   <footer class="footer">
     <div class="footer__wrapper">
-      <div class="footer__social">
+      <div class="footer__form-wrapper">
         <form class="footer__form-lang">
           <select class="footer__language name=" language" size="1">
             <option selected value="s1">English</option>
@@ -109,15 +115,22 @@
             <option value="s4">Spanish</option>
           </select>
         </form>
+        <div class="footer__social">
+          <ul class="footer__menu-list footer__menu-list--row">
+            <li class="footer__menu-item footer__menu-item--social"> <a href="#" class="footer__menu-link _icon-facebook"></a> </li>
+            <li class="footer__menu-item footer__menu-item--social"> <a href="#" class="footer__menu-link _icon-instagram"></a> </li>
+            <li class="footer__menu-item footer__menu-item--social"> <a href="#" class="footer__menu-link _icon-twitter"></a> </li>
+          </ul>
+        </div>
       </div>
       <div class="footer__blocks-wrapper">
         <div class="footer__inner-block">
           <ul class="footer__menu-list">
-            <li class="footer__partnership-item menu__item"> <a href="#" class="footer__menu-link">About Uber Eats</a>
+            <li class="footer__partnership-item footer__menu-item"> <a href="#" class="footer__menu-link">About Uber Eats</a>
             </li>
-            <li class="footer__partnership-item menu__item"> <a href="#" class="footer__menu-link">Become a Delivery
+            <li class="footer__partnership-item footer__menu-item"> <a href="#" class="footer__menu-link">Become a Delivery
                 Partner</a> </li>
-            <li class="footer__partnership-item menu__item"> <a href="#" class="footer__menu-link">Become a Restaurant
+            <li class="footer__partnership-item footer__menu-item"> <a href="#" class="footer__menu-link">Become a Restaurant
                 Partner</a> </li>
           </ul>
         </div>
@@ -147,13 +160,13 @@
             <li class="footer__menu-item"><a href="#" class="footer__menu-link">Terms</a></li>
           </ul>
         </div>
-        <div class="footer__badges">
-          <p class="footer__download">
-            Download Uber Eates App From:
-          </p>
-          <img src="img/footer/gplaybadge.png" alt="" class="footer__gplay">
-          <img src="img/footer/applbadge.png" alt="" class="footer__aapl">
-        </div>
+      </div>
+      <div class="footer__badges">
+        <p class="footer__download">
+          Download Uber Eates App From:
+        </p>
+        <img src="img/footer/gplaybadge.png" alt="" class="footer__gplay">
+        <img src="img/footer/applbadge.png" alt="" class="footer__aapl">
       </div>
     </div>
     <div class="footer__copyright">

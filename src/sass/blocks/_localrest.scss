@@ -1,19 +1,35 @@
 .localrest {
-    &__wrapper {
-        padding: 0 ;
-        display: flex;
-        justify-content:  space-around;
-        align-items: center;
-        background: url(../../img/localrest/broken_egg.png)  right top no-repeat, url(../../img/localrest/shape3section.png) center center/cover no-repeat, url(../../img/localrest/cucumbers.png) left bottom no-repeat;
-    }
-    &__favour {
-        display: flex;
-        flex-direction: column;
-        
-        width: 800px;
-    }
-    &__btn {
-        width: 200px;
-        align-self: flex-start;
-    }
+    background: url(../../img/localrest/cucumbers.png) left bottom no-repeat,
+      url(../../img/localrest/shape3section.png) no-repeat;
+
+  &__wrapper {
+    @include flexcenter;
+    
+  }
+  &__favour {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+  }
+  &__waves {
+      margin-bottom: 144px;
+    align-self: center;
+
+  }
+  &__btn {
+    width: 200px;
+  }
+  &__phone-wrapper {
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        width: 360px;
+        height: 375px;
+        bottom: 60%;
+        left: 100%;
+        background-image: url(../../img/localrest/broken_egg.png);
+
+      }
+  }
 }

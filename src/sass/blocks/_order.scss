@@ -1,15 +1,16 @@
 .order {
-    background: url('../../img/order/hands.png') left center no-repeat, url('../../img/order/smalldish.png') right center no-repeat;
+  background: url("../../img/order/hands.png") no-repeat,
+    url("../../img/order/smalldish.png") right center no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__tap {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    &__tap {
-        display: flex;
-        flex-direction: column;
-        width: 570px;
-    }
-    &__wave {
-        align-self: flex-start;
-        margin-top: 160px;
-    }
+    flex-direction: column;
+    width: 570px;
+  }
+  &__wave {
+    align-self: flex-start;
+    margin-top: 160px;
+  }
 }
