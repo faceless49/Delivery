@@ -12,11 +12,17 @@
         line-height: 2.55;
         letter-spacing: -0.4px;
         color: #ffffff;
+        border-top: 1px solid #3d3d3d;
     }
     &__blocks-wrapper {
         display: flex;
         justify-content: space-between;
-        flex: 0 1 35%;
+    }
+    &__inner-block {
+        margin-right: 145px;
+        &:last-child {
+            margin-right: 0;
+        }
     }
     &__language {
         font-size: 2rem;
