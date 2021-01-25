@@ -1,33 +1,23 @@
 .header {
-  background: url("../../img/header/big_dish.png") right top no-repeat,
-    url("../../img/header/headerbg_shape.png") center center/cover no-repeat;
+
   &__wrapper {
-    padding: 45px 175px 190px 180px;
+    background: url("../img/header/big_dish.png") right top no-repeat,
+    url('../img/header/header-sliced.png') 47% 45% no-repeat,
+    url('../img/header/petrucho.png') 50% 35% no-repeat,
+    url("../img/header/headerbg_shape.png") no-repeat;
+    background-size: auto, auto, auto, 100% 100%;
+    min-height: 900px;
+    padding: 45px 175px 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
   }
   &__order-area {
-    max-width: 390px;
+    max-width: 470px;
     margin-top: 200px;
   }
   &__btn--bs {
     width: 220px;
-  }
-  &__onion-wrapper {
-    transform: translate(-150%, 100%);
-    position: relative;
-    &:after {
-      content: "";
-      position: absolute;
-      top: -35px;
-      right: 15px;
-      width: 90px;
-      height: 90px;
-      background-image: url(../../img/header/petrucho.png);
-      background-repeat: no-repeat;
-      z-index: -1;
-    }
   }
   &__btn--sign {
     @include flexcenter;

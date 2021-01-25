@@ -1,20 +1,35 @@
 .getapp {
-    background: url('../../img/getapp/vegetables.png') left center/cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: url('../img/getapp/vegetables.png') left center/cover no-repeat;
+    min-height: 1400px;
+    @include flexcenter;
 
-    &__badges {
+    &__wrapper {
         display: flex;
         flex-direction: column;
     }
+    
     &__subtitle {
+        margin-left: 35px;
+        width: 415px;
     font-size: 4rem;
     font-weight: 700;
     line-height: 1.28;
     letter-spacing: -0.8px;
+
         &--greenpart {
             color: $base-color;
         }
+        &-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+    }
+    &__badges {
+        margin-top: 80px;
+    }
+    &__link {
+        margin-right: 10px;
     }
 }

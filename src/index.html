@@ -21,157 +21,184 @@
         </h2>
         <button class="header__btn--bs btn">Place an Order</button>
       </div>
-      <div class="header__onion-wrapper">
-        <img src="img/header/header-sliced.png" alt="Onion" class="header__onion">
-      </div>
-      <button class="btn header__btn--sign">Sign in</button>
+
+      <button class="btn header__btn--sign">Sign up</button>
 
     </div>
   </header>
   <section class="discover">
-    <div class="discover__wrapper">
-        <img src="img/discover/hamburger.png" class="find__hamburger" alt="Tasty hamburger">
-      <div class="discover__adress">
-        <h2 class="discover__title title">
-          Discover restaurants that <span class="title--greenpart">deliver near you</span>
-        </h2>
-        <input class="discover__geolocation" name="location" placeholder="Enter your delivery adress" />
-        <button class="discover__btn btn">Find food</button>
+    <div class="container">
+      <div class="discover__wrapper">
+        <img src="img/discover/hamburger.png" class="discover__hamburger" alt="Tasty hamburger">
+        <div class="discover__adress">
+          <h2 class="discover__title title">
+            Discover restaurants that <span class="title--greenpart">deliver near you</span>
+          </h2>
+          <form action="#" class="discover__form">
+            <input class="discover__geolocation" name="location" placeholder="Enter your delivery adress" />
+            <button class="discover__btn btn">Find food</button>
+          </form>
+        </div>
       </div>
     </div>
   </section>
   <section class="localrest">
-    <div class="localrest__wrapper">
-      <div class="localrest__favour">
-        <img src="img/order/wave.png" alt="" class="localrest__waves">
-        <h2 class="localrest__title title">
-          Find food you love from local restaurants and chain <span class="title--greenpart"> favourites. </span>
-        </h2>
-        <button class="localrest__btn btn">Find food</button>
-      </div>
-      <div class="localrest__phone-wrapper">
-        <img src="img/localrest/burgerphone.png" alt="Phone" />
+    <div class="container">
+      <div class="localrest__wrapper">
+        <div class="localrest__favour">
+          <h2 class="localrest__title title">
+            Find food you love from local restaurants and chain <span class="title--greenpart"> favourites. </span>
+          </h2>
+          <button class="localrest__btn btn">Find food</button>
+        </div>
+        <div class="localrest__phone-wrapper">
+          <img src="img/localrest/burgerphone.png" alt="Phone" />
+        </div>
       </div>
     </div>
   </section>
   <section class="order">
-    <div class="order__tap">
-      <h2 class="order__title title">
-        Tap to place your order and pay with your <span class="title--greenpart">Uber account.</span>
-      </h2>
-      <img src="img/order/wave.png" alt="" class="order__wave">
+    <div class="container">
+      <a href="#" class="order__link">
+        <h2 class="order__title title">
+          Tap to place your order and pay with your <span class="title--greenpart">Uber account.</span>
+        </h2>
+      </a>
     </div>
   </section>
   <section class="tracker">
-    <div class="tracker__wrapper">
-      <div class="tracker__food">
+    <div class="container">
+      <div class="tracker__wrapper">
         <h2 class="tracker__title title">
-          Track your food in real
+          Track your food in real <br>
           time from the <span class="title--greenpart">restaurant to you.</span>
         </h2>
-        <img src="img/track/sanwich.png" alt="tasty sandwich" class="tracker__sandwich">
+        <img src="img/track/phonemap.png" alt="Phone with UBER" />
       </div>
-      <img src="img/track/phonemap.png" alt="Phone with UBER" />
     </div>
   </section>
   <section class="getapp">
-    <img src="img/order/wave.png" alt="" class="getapp__waves" />
-    <div class="getapp__badges">
-      <h3 class="getapp__subtitle">Get the app.Order <span class="getapp__subtitle--greenpart">
-          with a tap.
-        </span> </h3>
-      <a href="#" class="getapp__link"><img src="img/getapp/googlebadge.png" alt="" class="getapp__link--gplay" /></a>
-      <a href="#"><img src="img/getapp/applebadge.png" alt="" class="getapp__link--aapl" /></a>
+    <div class="container">
+      <div class="getapp__wrapper">
+        <div class="getapp__subtitle-wrapper">
+          <img src="img/getapp/uberbadge.png" alt="" class="getapp__uber-badge">
+          <h3 class="getapp__subtitle">Get the app.Order <span class="getapp__subtitle--greenpart">
+              with a tap.
+            </span> </h3>
+        </div>
+        <div class="getapp__badges">
+          <a href="#" class="getapp__link"><img src="img/getapp/googlebadge.png" alt=""
+              class="getapp__link--gplay" /></a>
+          <a href="#" class="getapp__link"><img src="img/getapp/applebadge.png" alt="" class="getapp__link--aapl" /></a>
+        </div>
+      </div>
+    </div>
     </div>
   </section>
   <section class="services">
-    <div class="services__deliver">
-      <img src="img/services/foodhand.png" alt="" class="services__foodhand" />
-      <h3 class="services__partner">Your restaurant, delivered</h3>
-      <p class="services__descr">
-        Partner with Uber Eats for a new way to make money, reach new diners
-        and deliver food to your customers.
-      </p>
-      <button class="services__btn btn">Get started</button>
-    </div>
-    <div class="services__deliver">
-      <img src="img/services/servicesicon.png" alt="" class="services__motodel" />
-      <h3 class="services__partner">Deliver the Eats</h3>
-      <p class="services__descr">
-        Deliver with Uber and earn on your schedule. Depending on your city,
-        you could deliver with your car, bike or scooter.
-      </p>
-      <button class="services__btn btn">Get started</button>
-    </div>
+    <div class="container">
+      <div class="services__wrapper">
+        <div class="services__deliver">
+          <img src="img/services/foodhand.png" alt="" class="services__foodhand" />
+          <h3 class="services__partner">Your restaurant, delivered</h3>
+          <p class="services__descr">
+            Partner with Uber Eats for a new way to make money, reach new diners
+            and deliver food to your customers.
+          </p>
+          <button class="services__btn btn">Get started</button>
+        </div>
+        <div class="services__deliver">
+          <img src="img/services/servicesicon.png" alt="" class="services__motodel" />
+          <h3 class="services__partner">Deliver the Eats</h3>
+          <p class="services__descr">
+            Deliver with Uber and earn on your schedule. Depending on your city,
+            you could deliver with your car, bike or scooter.
+          </p>
+          <button class="services__btn btn">Get started</button>
+        </div>
+      </div>
+      </div>
   </section>
   <footer class="footer">
-    <div class="footer__wrapper">
-      <div class="footer__form-wrapper">
-        <form class="footer__form-lang">
-          <select class="footer__language name=" language" size="1">
-            <option selected value="s1">English</option>
-            <option value="s2">Russian</option>
-            <option value="s3">France</option>
-            <option value="s4">Spanish</option>
-          </select>
-        </form>
-        <div class="footer__social">
-          <ul class="footer__menu-list footer__menu-list--row">
-            <li class="footer__menu-item footer__menu-item--social"> <a href="#" class="footer__menu-link _icon-facebook"></a> </li>
-            <li class="footer__menu-item footer__menu-item--social"> <a href="#" class="footer__menu-link _icon-instagram"></a> </li>
-            <li class="footer__menu-item footer__menu-item--social"> <a href="#" class="footer__menu-link _icon-twitter"></a> </li>
-          </ul>
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__form-wrapper">
+          <form class="footer__form-lang">
+            <select class="footer__language name=" language" size="1">
+              <option selected value="s1">English</option>
+              <option value="s2">Russian</option>
+              <option value="s3">France</option>
+              <option value="s4">Spanish</option>
+            </select>
+          </form>
+          <div class="footer__social">
+            <ul class="footer__menu-list footer__menu-list--row">
+              <li class="footer__menu-item footer__menu-item--social"> <a href="#"
+                  class="footer__menu-link _icon-facebook"></a> </li>
+                  <li class="footer__menu-item footer__menu-item--social"> <a href="#"
+                    class="footer__menu-link _icon-twitter"></a> </li>
+              <li class="footer__menu-item footer__menu-item--social"> <a href="#"
+                  class="footer__menu-link _icon-instagram"></a> </li>
+  
+            </ul>
+          </div>
+        </div>
+        <div class="footer__blocks-wrapper">
+          <div class="footer__inner-block">
+            <ul class="footer__menu-list">
+              <li class="footer__partnership-item footer__menu-item"> <a href="#" class="footer__menu-link">About Uber
+                  Eats</a>
+              </li>
+              <li class="footer__partnership-item footer__menu-item"> <a href="#" class="footer__menu-link">Become a
+                  Delivery
+                  Partner</a> </li>
+              <li class="footer__partnership-item footer__menu-item"> <a href="#" class="footer__menu-link">Become a
+                  Restaurant
+                  Partner</a> </li>
+            </ul>
+          </div>
+          <div class="footer__inner-block">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">See all cities</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Pricing</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Help</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">FAQs</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__inner-block">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item"><a href="#" class="footer__menu-link">Blog</a></li>
+              <li class="footer__menu-item"><a href="#" class="footer__menu-link">Privacy</a></li>
+              <li class="footer__menu-item"><a href="#" class="footer__menu-link">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__badges">
+          <p class="footer__download">
+            Download Uber Eates App From:
+          </p>
+          <a href="#"><img src="img/footer/gplaybadge.png" alt="" class="footer__gplay"></a>
+          <a href="#"><img src="img/footer/applbadge.png" alt="" class="footer__aapl"></a>
         </div>
       </div>
-      <div class="footer__blocks-wrapper">
-        <div class="footer__inner-block">
-          <ul class="footer__menu-list">
-            <li class="footer__partnership-item footer__menu-item"> <a href="#" class="footer__menu-link">About Uber Eats</a>
-            </li>
-            <li class="footer__partnership-item footer__menu-item"> <a href="#" class="footer__menu-link">Become a Delivery
-                Partner</a> </li>
-            <li class="footer__partnership-item footer__menu-item"> <a href="#" class="footer__menu-link">Become a Restaurant
-                Partner</a> </li>
-          </ul>
-        </div>
-        <div class="footer__inner-block">
-          <ul class="footer__menu-list">
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">See all cities</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">Pricing</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">Help</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">FAQs</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">Blog</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__inner-block">
-          <ul class="footer__menu-list">
-            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Blog</a></li>
-            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Privacy</a></li>
-            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Terms</a></li>
-          </ul>
-        </div>
+      <div class="footer__copyright">
+        &copy;2020 Uber Technologies Inc
       </div>
-      <div class="footer__badges">
-        <p class="footer__download">
-          Download Uber Eates App From:
-        </p>
-        <a href="#"><img src="img/footer/gplaybadge.png" alt="" class="footer__gplay"></a>
-        <a href="#"><img src="img/footer/applbadge.png" alt="" class="footer__aapl"></a>
-      </div>
+
+
     </div>
-    <div class="footer__copyright">
-      &copy;2020 Uber Technologies Inc
-    </div>
+
 
   </footer>
 </body>

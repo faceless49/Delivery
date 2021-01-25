@@ -1,28 +1,33 @@
 .discover {
-    &__wrapper {
-        // margin: 60px 235px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    &__adress {
-        margin-left: 135px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    &__geolocation {
-        width: 480px;
-        height: 70px;
-        border: solid 1px #9b9a9a;
-        border-radius: 10px;
-        &::placeholder {
-            padding-left: 35px;
-            font-size: 1.6rem;
-            line-height: 4.38;
-        }
-    }
-    &__btn {
-        width: 200px;
-        margin-left: 5px;
-    }
+  &__wrapper {
+    background: url(../img/discover/clever.png) 80% 0% no-repeat;
+    min-height: 900px;
+    @include flexcenter;
+  }
+  &__adress {
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__geolocation {
+    width: 480px;
+    height: 70px;
+    border: solid 1px #9b9a9a;
+    border-radius: 10px;
+    padding-left: 35px;
+    font-size: 1.6rem;
+  }
+  &__btn {
+    width: 200px;
+    margin-left: 5px;
+  }
+  &__title {
+    width: 660px;
+  }
+  &__form {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 1.6rem;
+  }
 }

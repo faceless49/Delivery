@@ -1,5 +1,12 @@
 .services {
   @include flexcenter;
+  padding-top: 150px;
+  min-height: 750px;
+  background: url(../img/services/servicebg.png) no-repeat;
+  background-size: 100% 100%;
+  &__wrapper {
+    @include flexcenter;
+  }
 
   &__deliver {
     width: 420px;
@@ -22,10 +29,11 @@
     font-size: 2rem;
     line-height: 34px;
   }
-  
+
   &__btn {
     width: 184px;
     height: 60px;
+    margin-top: 30px;
     @include flexcenter;
   }
 }
