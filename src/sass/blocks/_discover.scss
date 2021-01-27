@@ -1,7 +1,7 @@
 .discover {
   &__wrapper {
     background: url(../img/discover/clever.png) 80% 0% no-repeat;
-    min-height: 900px;
+    margin-top: 50px;
     @include flexcenter;
   }
   &__adress {

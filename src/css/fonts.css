@@ -7,19 +7,19 @@
 
 @font-face {
   font-family: "Kayak";
-  src: url("../fonts/KayakSansRegular.otf") format("otf");
+  src: url("../fonts/KayakSansRegular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Kayak";
-  src: url("../fonts/KayakSansLight.otf") format("otf");
+  src: url("../fonts/KayakSansLight.ttf") format("ttf");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Kayak";
-  src: url("../fonts/KayakSansBold.otf") format("otf");
+  src: url("../fonts/KayakSansBold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }

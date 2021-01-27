@@ -1,8 +1,9 @@
 .order {
-  min-height: 1400px;
+  position: relative;
+  z-index: 2;
   background: url("../img/order/hands.png") left 250px no-repeat,
   url("../img/order/smalldish.png") right center no-repeat,
-  url('../img/order/mushroom.png') 65% 0% no-repeat,
+  url('../img/order/mushroom.png') 65% -5% no-repeat,
   url('../img/order/wave.png') 43% 80% no-repeat;
 
   background-size: cover, auto, auto, auto;
@@ -10,7 +11,7 @@
 
   &__title {
     width: 670px;
-    margin-left: 300px;
+    margin: 270px 0 270px 300px;
   }
   &__link {
     text-decoration: none;

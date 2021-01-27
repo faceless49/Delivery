@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Delivery food</title>
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/fonts.css" />
   <link rel="stylesheet" href="css/iconfonts.css">
@@ -13,17 +13,17 @@
 
 <body>
   <header class="header">
-    <div class="header__wrapper">
-      <div class="header__order-area">
-        <h2 class="header__title title">
-          There is no Sincerer Love than the
-          <span class="title--greenpart"> love of food.</span>
-        </h2>
-        <button class="header__btn--bs btn">Place an Order</button>
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__order-area">
+          <h2 class="header__title title">
+            There is no Sincerer Love than the
+            <span class="title--greenpart"> love of food.</span>
+          </h2>
+          <button class="header__btn--bs btn">Place an Order</button>
+        </div>
+        <button class="btn header__btn--sign">Sign up</button>
       </div>
-
-      <button class="btn header__btn--sign">Sign up</button>
-
     </div>
   </header>
   <section class="discover">
@@ -32,7 +32,7 @@
         <img src="img/discover/hamburger.png" class="discover__hamburger" alt="Tasty hamburger">
         <div class="discover__adress">
           <h2 class="discover__title title">
-            Discover restaurants that <span class="title--greenpart">deliver near you</span>
+            Discover restaurants that <span class="title--greenpart">deliver near you.</span>
           </h2>
           <form action="#" class="discover__form">
             <input class="discover__geolocation" name="location" placeholder="Enter your delivery adress" />
@@ -195,12 +195,22 @@
       <div class="footer__copyright">
         &copy;2020 Uber Technologies Inc
       </div>
+    </div>
+  </footer>
+  <div class="overlay">
+    <div class="modal" id="login">
+      <div class="modal__closebtn">&times;</div>
+      <div class="modal__subtitle">Log In</div>
+      <form action="#" class="modal__form">
+          <input class="modal__form-input" name="login" type="text" placeholder="Enter your login">
+          <input class="modal__form-input" maxlength="25" name="pass" type="password" placeholder="Enter your password">
+
+          <button class="modal__btn btn">Log in</button>
+      </form>
 
 
     </div>
-
-
-  </footer>
+  </div>
+<script src="js/script.js"></script>
 </body>
-
 </html>

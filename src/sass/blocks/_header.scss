@@ -1,13 +1,12 @@
 .header {
-
-  &__wrapper {
-    background: url("../img/header/big_dish.png") right top no-repeat,
-    url('../img/header/header-sliced.png') 47% 45% no-repeat,
-    url('../img/header/petrucho.png') 50% 35% no-repeat,
-    url("../img/header/headerbg_shape.png") no-repeat;
-    background-size: auto, auto, auto, 100% 100%;
+  background: url("../img/header/big_dish.png") right top no-repeat,
+  url('../img/header/header-sliced.png') 35% 60% no-repeat,
+  url('../img/header/petrucho.png') 40% 47% no-repeat,
+  url("../img/header/headerbg_shape.png") no-repeat;
+  background-size: auto, auto, auto, 100% 100%;
     min-height: 900px;
-    padding: 45px 175px 0;
+  
+  &__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -21,10 +20,9 @@
   }
   &__btn--sign {
     @include flexcenter;
-    position: relative;
+    margin-top: 50px;
     width: 115px;
     height: 45px;
-    z-index: 1;
     align-self: flex-start;
     font-size: 1.9rem;
     line-height: 70px;

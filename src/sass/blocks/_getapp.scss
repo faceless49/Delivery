@@ -1,33 +1,38 @@
 .getapp {
-    background: url('../img/getapp/vegetables.png') left center/cover no-repeat;
+    background: url('../img/getapp/vegetables.png') left center/cover no-repeat,
+    url('../img/getapp/grass.png') 85% 0% no-repeat,
+    url('../img/getapp/eggs.png') 55% 80% no-repeat,
+    url('../img/getapp/herb.png') 100% 80% no-repeat;
     min-height: 1400px;
-    @include flexcenter;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &__wrapper {
-        display: flex;
+        // margin: 200px 0;
         flex-direction: column;
+        width: 530px;
+        align-self: flex-end;
     }
-    
+    &__subtitle-wrapper {
+        // margin-top: 200px;
+        display: flex;
+        align-items: center;
+    }
     &__subtitle {
         margin-left: 35px;
-        width: 415px;
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 1.28;
-    letter-spacing: -0.8px;
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 1.28;
+        letter-spacing: -0.8px;
 
         &--greenpart {
             color: $base-color;
         }
-        &-wrapper {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-        }
     }
     &__badges {
+        align-self: flex-start;
         margin-top: 80px;
+        margin-bottom: 200px;
     }
     &__link {
         margin-right: 10px;

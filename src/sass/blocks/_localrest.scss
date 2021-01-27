@@ -2,10 +2,9 @@
   background: url('../img/localrest/cucumbers.png') left bottom no-repeat,
   url('../img/localrest/broken_egg.png') 105% 25% no-repeat,
   url('../img/localrest/shape3section.png') no-repeat;
-
-  
-  background-size: auto, auto, 100% 100%;
+   background-size: auto, auto, 100% 100%;
   min-height: 1400px;
+  margin-top: 80px;
   @include flexcenter;
   &__wrapper {
     background: url('../img/order/wave.png') 10% 20% no-repeat;
