@@ -200,15 +200,12 @@
   <div class="overlay">
     <div class="modal" id="login">
       <div class="modal__closebtn">&times;</div>
-      <div class="modal__subtitle">Log In</div>
+      <label class="modal__subtitle">Log In</label>
       <form action="#" class="modal__form">
-          <input class="modal__form-input" name="login" type="text" placeholder="Enter your login">
-          <input class="modal__form-input" maxlength="25" name="pass" type="password" placeholder="Enter your password">
-
+          <input required class="modal__form-input" type="text" placeholder="Enter your login">
+          <input required class="modal__form-input" type="password" placeholder="Enter your password" id="passfield">
           <button class="modal__btn btn">Log in</button>
       </form>
-
-
     </div>
   </div>
 <script src="js/script.js"></script>

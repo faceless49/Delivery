@@ -1,4 +1,4 @@
-'use strict'
+
 
 
 let loginIn = document.querySelector('.header__btn--sign')

@@ -33,8 +33,17 @@
       padding: 0 20px;
       color: #0d0d0d;
       font-size: 2.5rem;
+      &[type="password"] {
+        color: #0d0d0d;
+        font-size: 24px;
+        -webkit-text-security: circle;
+        font-family: 'Times New Roman';
+      }
       &:focus {
         outline: none;
+        border-style: solid;
+        border-color: $base-color;
+        box-shadow: none;
         &::placeholder {
           color: #0d0d0d;
           opacity: 0;
@@ -47,7 +56,7 @@
     color: #0d0d0d;
     font-size: 3rem;
     font-weight: 700;
-    text-align: center;
+    @include flexcenter;
   }
   &__btn {
     @include flexcenter;
@@ -68,10 +77,6 @@
     }
   }
 }
-
-/* #login {
-  display: none;
-} */
 
 @keyframes modalopen {
   from {
