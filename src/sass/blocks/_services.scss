@@ -4,6 +4,8 @@
   min-height: 750px;
   background: url(../img/services/servicebg.png) no-repeat;
   background-size: 100% 100%;
+  background-color: #f8f8f9;
+
   &__wrapper {
     @include flexcenter;
   }
@@ -20,7 +22,6 @@
   &__partner {
     font-size: 3.5rem;
     font-weight: 700;
-    line-height: 2;
     letter-spacing: -0.7px;
     color: $base-color;
   }

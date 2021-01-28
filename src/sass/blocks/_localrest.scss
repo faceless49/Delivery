@@ -1,6 +1,6 @@
 .localrest {
   background: url('../img/localrest/cucumbers.png') left bottom no-repeat,
-  url('../img/localrest/broken_egg.png') 105% 25% no-repeat,
+  url('../img/localrest/broken_egg.png') 105% 10% no-repeat,
   url('../img/localrest/shape3section.png') no-repeat;
    background-size: auto, auto, 100% 100%;
   min-height: 1400px;
@@ -19,6 +19,7 @@
   }
   &__btn {
     margin-top: 50px;
-    width: 200px;
+    padding: 25px 50px;
+    align-self: flex-start;
   }
 }

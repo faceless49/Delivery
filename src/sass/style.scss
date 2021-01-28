@@ -4,8 +4,9 @@
   html, body {
   font-family: 'Kayak', sans-serif;
   font-weight: 400;
-
   }
+
+  
 /* html, body {
   font-family: 'Kayak', sans-serif;
   font-weight: 400;
@@ -18,7 +19,7 @@
   max-width: 1640px;
   margin: 0 auto;
   padding: 0 40px;
-
+  overflow: hidden;
 }
 
 @import "blocks/titles";
@@ -32,4 +33,5 @@
 @import "blocks/services";
 @import "blocks/footer";
 @import "blocks/modal";
+@import "blocks/media"
 

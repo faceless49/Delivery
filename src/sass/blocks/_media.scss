@@ -1,0 +1,460 @@
+@media (max-width: 1900px) {
+  .header {
+    background-size: 85%, auto, auto, 100% 100%;
+  }
+
+  .discover {
+    &__btn {
+      padding: 24px 20px;
+    }
+  }
+}
+
+@media (max-width: 1399px) {
+  .discover {
+    &__adress {
+      margin-left: 50px;
+      margin-top: 15px;
+    }
+    &__geolocation {
+      width: 380px;
+    }
+    &__hamburger {
+      width: 40%;
+    }
+    &__btn {
+      padding: 25px 40px;
+    }
+  }
+  .order {
+    background: url(../img/order/smalldish.png) right 65% no-repeat,
+      url(../img/order/mushroom.png) 65% -5% no-repeat,
+      url(../img/order/wave.png) 43% 80% no-repeat;
+    &__title {
+      margin: 270px 0 270px 325px;
+    }
+    &:before {
+      left: -170px;
+    }
+  }
+
+  .tracker {
+    &__phone {
+      width: 40%;
+    }
+  }
+  .getapp {
+    background: url("../img/getapp/vegetables.png") left center no-repeat,
+      url("../img/getapp/grass.png") 85% 15% no-repeat,
+      url("../img/getapp/eggs.png") 55% 80% no-repeat,
+      url("../img/getapp/herb.png") 100% 80% no-repeat;
+    background-size: 80%, 15%, auto, auto;
+    background-color: #f8f8f9;
+  }
+
+  .footer {
+    &__inner-block {
+      margin-right: 45px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  html,
+  body {
+    font-size: 7px;
+  }
+  .header {
+    &__btn--bs {
+      padding: 15px 20px;
+    }
+  }
+  .discover {
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__adress {
+      margin-left: 0;
+    }
+    &__geolocation {
+      width: 350px;
+      height: 50px;
+    }
+    &__hamburger {
+      width: 40%;
+    }
+    &__btn {
+      padding: 20px 50px;
+    }
+  }
+  .localrest {
+    background: url(../img/localrest/cucumbers.png) left bottom no-repeat,
+      url(../img/localrest/broken_egg.png) 105% 13% no-repeat,
+      url(../img/localrest/shape3section.png) no-repeat;
+    background-size: 70%, 30%, auto;
+    &__btn {
+      padding: 15px 40px;
+    }
+  }
+  .order {
+    background: url("../img/order/smalldish.png") right center no-repeat,
+      url("../img/order/mushroom.png") 65% -5% no-repeat,
+      url("../img/order/wave.png") 60% 80% no-repeat;
+    background-size: 10%, 15%, 10%;
+    &__title {
+      width: 455px;
+    }
+  }
+  .tracker {
+    &__wrapper {
+      background: url("../img/track/ketchup.png") top center no-repeat,
+        url("../img/track/sanwich.png") 5% 104% no-repeat,
+        url("../img/track/vareniki.png") 40% 95% no-repeat;
+    }
+    &__title {
+      margin: 180px 110px 0 0;
+    }
+  }
+  .getapp {
+    &__wrapper {
+      margin-left: 200px;
+    }
+  }
+  .services {
+    &__btn {
+      padding: 15px 40px;
+      width: auto;
+      height: auto;
+    }
+    &__deliver {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+  .footer {
+    &__language {
+      width: 145px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  html,
+  body {
+    font-size: 6px;
+  }
+
+  .header {
+    &__order-area {
+      margin-top: 300px;
+    }
+  }
+
+  .discover {
+    &__wrapper {
+      background: url(../img/discover/clever.png) 100% 10% no-repeat;
+    }
+    &__form {
+      margin-top: 30px;
+    }
+  }
+
+  .localrest {
+    &__wrapper {
+      background: url(../img/order/wave.png) 0% 20% no-repeat;
+    }
+    &__favour {
+      margin-right: 50px;
+    }
+  }
+
+  .order {
+    background: url("../img/order/smalldish.png") right center no-repeat,
+      url("../img/order/mushroom.png") 65% -5% no-repeat,
+      url("../img/order/wave.png") 60% 80% no-repeat;
+    background-size: 10%, 15%, auto;
+    &:before {
+      content: none;
+    }
+    &__title {
+      width: 455px;
+      margin: 260px 0 250px 95px;
+    }
+  }
+  .tracker {
+    min-height: 900px;
+    &__wrapper {
+      background: url("../img/track/ketchup.png") top center no-repeat,
+        url("../img/track/sanwich.png") 47% 110% no-repeat;
+    }
+  }
+  .footer {
+    padding-top: 70px;
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+      border: none;
+    }
+    &__inner-block {
+      margin-right: 145px;
+    }
+    &__badges {
+      text-align: center;
+    }
+    &__gplay {
+      margin-right: 15px;
+    }
+    &__deliver {
+      padding: 0 45px;
+    }
+  }
+
+  .modal {
+    min-height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+  .header {
+    &__btn--sign {
+      width: 55px;
+      padding: 10px 0px;
+    }
+  }
+
+  .discover {
+    &__title {
+      width: 480px;
+    }
+    &__btn {
+      padding: 20px 24px;
+    }
+    &__geolocation {
+      font-size: 2.6rem;
+      width: 330px;
+    }
+  }
+
+  .localrest {
+    &__wrapper {
+      display: block;
+      background: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__favour {
+      margin: 0;
+      margin-top: 130px;
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__btn {
+      margin-top: 20px;
+    }
+    &__title {
+      margin: 0;
+    }
+    &__phone-wrapper {
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+  }
+
+  .order {
+    background: url("../img/order/smalldish.png") right center no-repeat,
+      url("../img/order/mushroom.png") 65% 10% no-repeat,
+      url("../img/order/wave.png") 43% 80% no-repeat;
+    background-size: 10%, 15%, auto;
+
+    &__title {
+      margin: 270px 0 270px 80px;
+    }
+  }
+
+  .tracker {
+    min-height: 720px;
+
+    &__wrapper {
+      background: url(../img/track/ketchup.png) top center no-repeat,
+        url(../img/track/sanwich.png) 50% 95% no-repeat;
+      background-size: 30%;
+    }
+  }
+
+  .getapp {
+    background: url("../img/getapp/vegetables.png") 40% 60% no-repeat,
+      url("../img/getapp/grass.png") 85% 15% no-repeat,
+      url("../img/getapp/eggs.png") 55% 80% no-repeat,
+      url("../img/getapp/herb.png") 100% 80% no-repeat;
+    background-size: 95%, 20%, auto, auto;
+    background-color: #f8f8f9;
+    &__wrapper {
+      margin-left: 0;
+      display: flex;
+      align-items: center;
+      width: auto;
+    }
+  }
+
+  .services {
+    min-height: 500px;
+    &__deliver {
+      padding: 0 15px;
+    }
+    &__descr {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 575px) {
+    html,
+    body {
+      font-size: 5px;
+    }
+    .container {
+      max-width: 360px;
+    }
+    .header {
+      background-size: 160%, 50%, auto, 100% 100%;
+      &__btn--bs {
+        padding: 10px 20px;
+        margin-top: 10px;
+      }
+    }
+    .discover {
+      &__wrapper {
+        background: none;
+      }
+      &__adress {
+        margin-left: 0;
+        align-items: center;
+        justify-content: center;
+      }
+      &__title {
+        width: auto;
+      }
+      &__geolocation {
+        width: 210px;
+        height: 40px;
+      }
+      &__btn {
+        padding: 14px 11px;
+      }
+    }
+    .localrest {
+      &__phone-wrapper {
+        @include flexcenter;
+      }
+      &__phone-img {
+        width: 80%;
+      }
+    }
+    .order {
+      background: url(../img/order/smalldish.png) 90% 70% no-repeat,
+        url(../img/order/mushroom.png) 65% 10% no-repeat,
+        url(../img/order/wave.png) 43% 80% no-repeat;
+      background-size: 20%, 20%, auto;
+      &__title {
+        margin: 180px 0;
+        width: 330px;
+      }
+    }
+
+    .tracker {
+      &__wrapper {
+        background: url(../img/track/ketchup.png) 90% 10% no-repeat,
+          url(../img/track/sanwich.png) 105% 45% no-repeat;
+        background-size: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      &__title {
+        width: auto;
+        margin: 0;
+        margin: 90px 0;
+        padding-top: 30px;
+      }
+      &__phone {
+        width: 80%;
+      }
+    }
+
+    .getapp {
+      &__badges {
+        align-self: center;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+      }
+      &__link {
+        margin-top: 10px;
+        margin-right: 0;
+      }
+    }
+
+    .services {
+      &__wrapper {
+        flex-wrap: wrap;
+      }
+
+      &__deliver {
+        align-items: center;
+        margin: 40px auto;
+        border: none;
+      }
+      &__partner {
+        margin: 0;
+        margin-top: 30px;
+
+      }
+      &__descr {
+        line-height: 22px;
+        font-size: 3rem;
+      }
+      &__btn {
+        width: 110px;
+        height: 40px;
+        padding: 0;
+        margin-top: 10px;
+      }
+      &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .footer {
+      &__wrapper {
+        font-size: 2.5rem;
+      }
+      &__inner-block {
+        margin-right: 50px;
+        font-size: 2.5rem;
+      }
+      &__form-wrapper {
+        font-size: 2.5rem;
+      }
+      &__language {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .modal {
+    min-height: 270px;
+    width: 200px;
+  }
+}

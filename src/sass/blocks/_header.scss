@@ -16,16 +16,14 @@
     margin-top: 200px;
   }
   &__btn--bs {
-    width: 220px;
+    padding: 25px 35px;
   }
   &__btn--sign {
     @include flexcenter;
     margin-top: 50px;
-    width: 115px;
-    height: 45px;
+    padding: 10px 25px;
     align-self: flex-start;
     font-size: 1.9rem;
-    line-height: 70px;
     font-weight: 700;
   }
 }

@@ -1,6 +1,6 @@
 .getapp {
     background: url('../img/getapp/vegetables.png') left center/cover no-repeat,
-    url('../img/getapp/grass.png') 85% 0% no-repeat,
+    url('../img/getapp/grass.png') 85% 15% no-repeat,
     url('../img/getapp/eggs.png') 55% 80% no-repeat,
     url('../img/getapp/herb.png') 100% 80% no-repeat;
     background-color: #f8f8f9;
@@ -8,14 +8,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -280px;
     &__wrapper {
-        // margin: 200px 0;
         flex-direction: column;
         width: 530px;
         align-self: flex-end;
     }
     &__subtitle-wrapper {
-        // margin-top: 200px;
         display: flex;
         align-items: center;
     }
@@ -37,5 +36,8 @@
     }
     &__link {
         margin-right: 10px;
+    }
+    &__btn {
+    padding: 25px 50px;
     }
 }
