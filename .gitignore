@@ -16,6 +16,10 @@
 .env.test.local
 .env.production.local
 .editorconfig
+package.json
+package-lock.json
+gulpfile.js
+.gitignore
 
 npm-debug.log*
 yarn-debug.log*
